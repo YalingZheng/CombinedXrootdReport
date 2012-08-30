@@ -1,0 +1,5 @@
+cd /home/bockelman/yzheng/combinedxrootdreport/src
+
+python gratia_reporting/report.py -n "cmsxrootd" -r "yesterday" -c "conf/logging.cfg"
+or
+./scripts/gratia_report -n "cmsxrootd" -r "yesterday" -c "conf/logging.cfg"
